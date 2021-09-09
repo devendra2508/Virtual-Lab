@@ -1,0 +1,589 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-IN" xmlns=http://www.w3.org/1999/xhtml>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The potentiometer- Comparison of emf (Simulator) : Class 12 : Physics : Amrita Online Lab </title>
+    <META NAME="description" content="To compare the E.M.F.s of two given primary cells using potentiometer" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+        dataLayer = [{ 'uid': '', 'uid_nodal': '', 'uid_type': '', 'uid_regnUniversity': 'Amrita', 'expId': '231', 'expName': 'The potentiometer- Comparison of emf', 'expLab': 'Class 12', 'expBroadArea': 'Physics', 'expComponent': 'Simulator', }];
+
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="theme/amrita_olabs_wt_responsive/images/favicon.ico">
+    <link rel="apple-touch-icon" href="theme/amrita_olabs_wt_responsive/images/bookicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="theme/amrita_olabs_wt_responsive/images/bookicon.png" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4" hreflang="x-default" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=hi-IN" hreflang="hi-IN" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=ml-IN" hreflang="ml-IN" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=tl-IN" hreflang="tl-IN" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=fr-FR" hreflang="fr-FR" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=mr-IN" hreflang="mr-IN" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=es-ES" hreflang="es-ES" />
+    <link rel="alternate" href="http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4&lan=kn-IN" hreflang="kn-IN" />
+    <script>// var CKEDITOR_BASEPATH = '/Collab/ckeditor/';</script>
+    <link href="theme/amrita_olabs_wt_responsive/css/font.css" rel="stylesheet" type="text/css">
+    <link href="theme/amrita_olabs_wt_responsive/css/tabs.css" rel="stylesheet" type="text/css">
+    <link href="theme/amrita_olabs_wt_responsive/css/main.css" rel="stylesheet" type="text/css">
+    <link href="theme/amrita_olabs_wt_responsive/css/style.css" rel="stylesheet" type="text/css">
+    <link href="theme/amrita_olabs_wt_responsive/css/inner_style.css" rel="stylesheet" type="text/css">
+    <link href="theme/amrita_olabs_wt_responsive/css/responsive_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="theme/amrita_olabs_wt_responsive/css/responsive_css/custom.css" rel="stylesheet" type="text/css">
+    <style>
+        #fl_banner div {
+            position: absolute;
+        }
+
+        div.mouseoverclass {
+            background-color: #ffffff;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+            /* For IE8 and earlier */
+            position: absolute;
+            /*margin-left:220px;*/
+            width: 180px;
+            text-align: center;
+            height: 30px;
+            margin-top: 20px;
+            font-size: 24px;
+            vertical-align: middle;
+            margin-left: 7px;
+            margin-right: 5px;
+            /*
+	border:2px solid black;
+	text-align:center;
+	vertical-align:middle;*/
+        }
+
+        body {
+            background-color: #C0C0C0;
+
+        }
+    </style>
+    <link href="theme/amrita_olabs_wt_responsive/css/olab-css.css" rel="stylesheet" type="text/css" />
+    <link href="theme/amrita_olabs_wt_responsive/css/home_styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="js/grid/gt_grid.css" />
+    <script type="text/javascript" src="js/grid/gt_msg_en.js"></script>
+    <script type="text/javascript" src="js/src/gt_const.js"></script>
+    <script type="text/javascript" src="js/grid/gt_grid_all.js"></script>
+    <script type="text/javascript" src="js/grid/flashchart/fusioncharts/FusionCharts.js"></script>
+    <!-- include jQuery library 
+<script type="text/javascript" src="theme/amrita_olabs_wt_responsive/js/jquery.min.js"></script>-->
+    <script type="text/javascript" src="theme/amrita_olabs_wt_responsive/js/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="js/top_up-min.js"></script>-->
+    <script type="text/javascript" src="theme/amrita_olabs_wt_responsive/js/bootstrap.min.js"></script>
+    <!-- include Cycle plugin -->
+    <script type="text/javascript" src="js/jquery.cycle.lite.min.js"></script>
+
+    <!--<script type="text/javascript" src="js/cross-slide.min.js"></script>-->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slideshow').cycle({
+                fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+            });
+        });
+        $(document).ready(function () {
+            $('.bannerslideshow div').css({
+                'background-color': '#FFFFFF'
+            });
+            $('.bannerslideshow').cycle({
+                fx: 'fade',// name of transition function 
+                delay: 0, // additional delay (in ms) for first transition (hint: can be negative) 
+                timeout: 7000, // milliseconds between slide transitions (0 to disable auto advance) 
+                speed: 1000// speed of the transition (any valid fx speed value) 
+            });
+
+        });
+
+        function mouseverjs(opacityDiv) {
+            //var opacityDiv
+            document.getElementById(opacityDiv).className = "mouseoverclass";
+            document.getElementById(opacityDiv).style.display = "block";
+
+        }
+        function mouseoutjs(opacityDiv) {
+            document.getElementById(opacityDiv).style.display = "none";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="container" style="background-color:#e8e8e8;">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="theme/amrita_olabs_wt_responsive/images/logo3.jpg" style="float:left; max-width:100%;" />
+                <a href="http://www.cdac.in/" target="_blank" style="float:right;max-width:100%;"><img
+                        src="theme/amrita_olabs_wt_responsive/images/cdac-logo.jpg" /></a>
+                <a href="http://www.amrita.edu/create" target="_blank" style="float:right;max-width:100%;"><img
+                        src="theme/amrita_olabs_wt_responsive/images/amrita-logo.png" /></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+
+                    <div class="menu">
+                        <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1"><span class="sr-only"></span><span
+                                    class="icon-bar"></span><span class="icon-bar"></span><span
+                                    class="icon-bar"></span></button><a class="navbar-brand"
+                                href="http://www.olabs.edu.in/">Home</a></div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown"><a href="?pg=topMenu&id=18" class="dropdown-toggle"
+                                        data-toggle="dropdown">About&nbsp;<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?pg=topMenu&id=4">FAQs</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="?pg=topMenu&id=20">System Requirements</a></li>
+                                        <li class="divider"></li>
+                                    </ul>
+                                </li>
+                                <li><a href="?pg=topMenu&id=17">In the news</a></li>
+                                <li><a href="?pg=topMenu&id=19">Workshops</a></li>
+                                <li class="dropdown"><a href="?pg=topMenu&id=81" class="dropdown-toggle"
+                                        data-toggle="dropdown">Training&nbsp;<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?pg=topMenu&id=82">Training Calendar</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="?pg=topMenu&id=83">Request for Training</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="?pg=topMenu&id=131">Training Status</a></li>
+                                        <li class="divider"></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="?pg=topMenu&id=21" class="dropdown-toggle"
+                                        data-toggle="dropdown">Registration&nbsp;<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?pg=topMenu&id=23">For Teachers</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="?pg=topMenu&id=24">For Students</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="?pg=topMenu&id=25">For Schools</a></li>
+                                        <li class="divider"></li>
+                                    </ul>
+                                </li>
+                                <li><a href="?pg=topMenu&id=62">Contact us</a></li>
+                                <li><a id="login_topMenu" href="#" onclick="authenticate('');return false;">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <ul class="nav navbar-nav pull-right mobileNav">
+                        <li class="dropdown" onclick="showLanguage()"><a
+                                style="border-radius:0em 0.8em 0em 0em;">Languages<img
+                                    src=theme/amrita_olabs_wt_responsive/images/select_lang.png
+                                    style="margin-left:8px;" /></a>
+                            <ul class="dropdown-menu" id="langPopup">
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','en-IN','en-IN')">English</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','hi-IN','en-IN')">हिंदी</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','ml-IN','en-IN')">മലയാളം</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','tl-IN','en-IN')">తెలుగు</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','fr-FR','en-IN')">Français</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','mr-IN','en-IN')">मराठी</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','es-ES','en-IN')">Español</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                                <li><a
+                                        href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','kn-IN','en-IN')">ಕನ್ನಡ</a>
+                                </li>
+
+                                <li id="langurl" class="divider hidden-sm hidden-xs"></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background-color:#e8e8e8;">
+        <div class=" row expContent">
+            <div class="breadcum">you are here-><a href="http://www.olabs.edu.in/">home</a>-><a
+                    href="?sub=1">Physics</a>-><a href="?sub=1&brch=6">Class 12</a>-><a href="">The potentiometer-
+                    Comparison of emf</a></div>
+
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12 detailsTop">
+                    <div class="title">The potentiometer- Comparison of emf</div>
+                </div>
+            </div>
+
+            <div class="row">
+            </div>
+
+            <div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="tabContent">
+                            <div class="Row">
+                                <div class="Cell hidden-xs hidden-sm" id="lcurve" style="width:24px; height:144px">
+                                </div>
+
+                                <div class="Cell">
+                                    <nav class="navbar" id="mcurve">
+                                        <div class="navbar-header" id="navBrand">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                                data-target="#myNavbar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <a class="navbar-brand navbar-brand_2 hidden-md hidden-lg"
+                                                href="?sub=1&brch=6&sim=231&cnt=1">
+                                                <ul class="nav nav-tabs">
+                                                    <li class="">
+                                                        <p href="?sub=1&brch=6&sim=231&cnt=1">
+                                                            <img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_1.png">Theory
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                        <div class="collapse navbar-collapse" id="myNavbar">
+                                            <ul class="nav navbar-nav nav_2 nav-tabs" id="tab">
+
+
+                                                <a class="navbar-brand_2 hidden-xs hidden-sm"
+                                                    href="?sub=1&brch=6&sim=231&cnt=1">
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="">
+                                                            <p href="?sub=1&brch=6&sim=231&cnt=1">
+                                                                <img
+                                                                    src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_1.png">Theory
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </a>
+
+
+
+                                                <li class=""><a href="?sub=1&brch=6&sim=231&cnt=2">
+                                                        <p style="display:inline"><img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_2.png">Procedure
+                                                        </p>
+                                                    </a></li>
+
+                                                <li class=""><a href="?sub=1&brch=6&sim=231&cnt=728">
+                                                        <p style="display:inline"><img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_44.png">Animation
+                                                        </p>
+                                                    </a></li>
+
+                                                <li class="active"><a href="?sub=1&brch=6&sim=231&cnt=4">
+                                                        <p style="display:inline"><img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_4.png">Simulator
+                                                        </p>
+                                                    </a></li>
+
+                                                <li class=""><a href="?sub=1&brch=6&sim=231&cnt=572">
+                                                        <p style="display:inline"><img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_94.png">Viva
+                                                            voce</p>
+                                                    </a></li>
+
+                                                <li class=""><a href="?sub=1&brch=6&sim=231&cnt=595">
+                                                        <p style="display:inline"><img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_6.png">Resources
+                                                        </p>
+                                                    </a></li>
+
+                                                <li class=""><a href="?sub=1&brch=6&sim=231&cnt=7">
+                                                        <p style="display:inline"><img
+                                                                src="theme/amrita_olabs_wt_responsive/images/tab_icon_image/content_7.png">Feedback
+                                                        </p>
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="Cell hidden-xs hidden-sm" id="rcurve" style="width:24px; height:144px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+                <script language="javascript" type="text/javascript" src="js/jquery.flot.js"></script>
+
+                <script language="javascript">
+
+
+                    var dsOption788442236 = {
+                        fields: [{ name: "worksheet062", type: 'float' }, { name: "worksheet162", type: 'float' }, { name: "worksheet262", type: 'float' }, { name: "worksheet362", type: 'float' }, {
+                            name: "worksheet462", type: 'float', initValue: function (record) {
+                                var recVal = Number(record[3]) / Number(record[2]);
+                                recVal = recVal.toFixed(2);
+                                return recVal;
+                            }
+                        }], recordType: 'array'
+                    };
+                    var colsOption788442236 = [{ id: 'worksheet062', header: "No.", width: 150, editor: { type: "text" } }, { id: 'worksheet162', header: "Ammeter Reading,A", width: 150, editor: { type: "text" } }, { id: 'worksheet262', header: "Balancing length when E1 in circuit,l1(cm)", width: 150, editor: { type: "text" } }, { id: 'worksheet362', header: "Balancing length when E2 in circuit,l2(cm)", width: 150, editor: { type: "text" } }, { id: 'worksheet462', header: "Ratio of Emfs(E1/E2)=(l1/l2)", width: 150 }];;
+
+                    var gridOption788442236 = {
+                        id: "grid1788442236",
+                        loadURL: "worksheet.php?id=62&exp=0",
+                        saveURL: "worksheet.php?wid=62&ex=0",
+                        container: 'grid1_container788442236',
+                        dataset: dsOption788442236,
+                        columns: colsOption788442236,
+                        toolbarPosition: 'bottom',
+                        reloadAfterSave: false,
+                        SigmaGridPath: 'js/grid/',
+                        //exportURL : 'js/grid1/export_php/testList.php?export=true',
+                        //exportFileName : 'test_export_doc',				
+
+                        //toolbarContent : 'add del save | print xls pdf |'
+                        toolbarContent: 'add del save | print |'
+                    };
+                </script>
+                <div id="graphws"
+                    style="display:none; position:fixed; z-index:999;left:20%; top:25%; border: solid 1px #000; width:300px; background-color:#FFF; margin-top:0px;">
+                    <p
+                        style="background:url(js/grid/skin/default/images/toolbar_bg1.gif); display:block; padding-bottom:17px;padding-top:3px;margin:0px;">
+                        <span style="float:left; margin-top:1px;">Chart</span>
+                        <span style="float:right; cursor:pointer;" onclick="hideUpdate('graphws');">
+                            <img src="js/grid/skin/default/images/dialog_close_btn.gif" /></span>
+                    </p>
+                    <p id="title" style=" text-align:center;"></p>
+                    <p id="yAxis"
+                        style="position:relative; left:-138px; top:150px; -webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg); text-align: center;">
+                    </p>
+                    <div style="width:90%; margin-left:23px; margin-right:10px; height:300px; border:#000;"
+                        id="chart1div">
+                    </div>
+                    <p id="xAxis" style="text-align:center; margin-bottom:2px;"></p>
+                    <div style="clear:both;"></div>
+                </div>
+
+                <div id="graphws2"
+                    style="display:none; position:fixed; left:20%; top:25%; z-index:999; border: solid 1px #000; width:300px; background-color:#FFF;">
+                    <p
+                        style="background:url(js/grid/skin/default/images/toolbar_bg1.gif); display:block; padding-bottom:17px;padding-top:3px; margin:0px;">
+                        <span style="float:left; margin-top:1px;">Chart</span>
+                        <span style="float:right; cursor:pointer;" onclick="hideUpdate('graphws2');"><img
+                                src="js/grid/skin/default/images/dialog_close_btn.gif" /></span>
+                    </p>
+                    <p id="title2" style=" text-align:center;"></p>
+                    <p id="yAxis2"
+                        style="position:relative; left:-138px; top:150px; -webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg); text-align: center;">
+                    </p>
+                    <div id="chart2div" style="width:90%; margin-left:23px; height:300px; border:#000;">
+                    </div>
+                    <p id="xAxis2" style="text-align:center; margin-bottom:2px;"></p>
+                    <div style="clear:both;"></div>
+                </div>
+
+                <style type="text/css">
+                    .mybutton-cls {
+                        background: url(js/grid/skin/default/images/tool_chart.gif) no-repeat center center;
+                    }
+                </style>
+
+                <div class="divContent">
+                    <p>
+                    <p align="center"><iframe
+                            src="//amrita.olabs.edu.in/olab/html5/?sub=PHY&amp;cat=EMM&amp;exp=EMF_of_Two_Primary_Cells&amp;tempId=olab_ot&linktoken=26cb1991a5edad8a8250553c74120db4&elink_lan=en-IN&elink_title=The potentiometer- Comparison of emf"
+                            width='820px' , height='500px' align="middle" class="iframeStyle" frameborder="0"
+                            allowfullscreen="true"> </iframe></p>
+                    </p>
+
+                    <div class="FckWorksheet" id="en-IN62" title="Right Click to edit">
+                        <script language="javascript">gridOption788442236</script>
+                        <script language="javascript">var mygrid788442236 = new Sigma.Grid(gridOption788442236);</script>
+                        <script language="javascript">Sigma.Util.onLoad(Sigma.Grid.render(mygrid788442236));</script>
+                        <div class="worksheetDiv" align="center">
+                            <div align="center" id="grid1_container788442236"
+                                style="width:700px;height:300px;margin:0px auto;"></div>
+                        </div>
+                    </div>
+
+                    <div class="FckWorksheet" title="Right Click to edit">&nbsp;</div>
+
+                    <p>&nbsp;</p>
+                </div>
+                <div style="background-color:white;padding:10px">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                        */
+
+                        var disqus_config = function () {
+                            this.page.url = 'http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4'; // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = 231// Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            this.page.title = ''
+                        };
+
+                        (function () { // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+
+                            s.src = '//amritaonlinelabs.disqus.com/embed.js';
+
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+                            rel="nofollow">comments powered by Disqus.</a></noscript>
+                </div>
+                <div style="background:#e7ecee; margin:0px 10px 0px 10px;position:relative">
+                    <p style="font-family:Verdana, Geneva, sans-serif; font-size:16px; padding:5px;"><strong>Cite this
+                            Simulator:</strong></p><textarea rows="2"
+                        style="border:none; width: 97%; background:#e7ecee;padding:5px;font-size:14px;"
+                        onclick="javascript: SelectAll('citeText')"
+                        id="citeText">amrita.olabs.edu.in,. (2015). The potentiometer- Comparison of emf. Retrieved 4 July 2021, from amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4 </textarea>
+                </div>
+            </div>
+            <div class="tabContent hidden-xs hidden-sm" align="center" width="100%" cellpadding="0" cellspacing="0"
+                border="0">
+                <div class="Row">
+                    <div class="Cell" style="width:21px;height:45px"><img
+                            src="theme/amrita_olabs_wt_responsive/images/lab_bgbot_lcurve.gif"></div>
+                    <div class="Cell"
+                        style="background:url(theme/amrita_olabs_wt_responsive/images/lab_bgbot_mid.gif) repeat-x bottom center; width:100%">
+                    </div>
+                    <div class="Cell" style="width:21px;height:45px"><img
+                            src="theme/amrita_olabs_wt_responsive/images/lab_bgbot_rcurve.gif"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#tab li').click(function () {
+                $('#navBrand li').removeClass('active');
+                $(this).tab('show');
+            });
+
+            $('#navBrand li').click(function () {
+                $('#navBrand li').addClass('active');
+                $('#tab li').removeClass('active');
+            });
+
+
+        });
+    </script>
+
+
+    <div class="container" style="background-color:#e8e8e8;">
+        <div class="container-fluid">
+            <div id="footer" class="row">
+
+                <div class="col-xl-1 col-lg-1"></div>
+                <div class="col-xl-10 col-lg-10">
+
+                    <p>Developed by <a href="http://www.amrita.edu/create" target="_blank">Amrita Vishwa
+                            Vidyapeetham</a> & <a href="http://www.cdac.in/" target="_blank"> CDAC Mumbai.</a> Funded by
+                        MeitY (Ministry of Electronics & Information Technology)</p>
+                    <p>
+                        <a id="langurl"
+                            href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','en-IN','en-IN')">English</a>
+                        <a id="langurl"
+                            href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','hi-IN','en-IN')">हिंदी</a>
+                        <a id="langurl"
+                            href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','ml-IN','en-IN')">മലയാളം</a>
+                        <a id="langurl"
+                            href="javascript:langUrlProvider('http://amrita.olabs.edu.in/?sub=1&brch=6&sim=231&cnt=4','mr-IN','en-IN')">मराठी
+                        </a>
+                    </p>
+                    <p>
+                        <fb:like href="https://www.facebook.com/CREATEatAmrita" send="false" width="200"
+                            style="margin-top: 2px; height:25px;" show_faces="false"></fb:like>
+                        </td>
+                    </p>
+
+
+                </div>
+                <div class="col-xl-1 col-lg-1"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/javascript_functions.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var pkBaseURL = (("https:" == document.location.protocol) ? "https://ahs.amrita.ac.in/logs/" : "http://ahs.amrita.ac.in/logs/");
+        document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+            piwikTracker.trackPageView();
+            piwikTracker.enableLinkTracking();
+        } catch (err) { }
+    </script><noscript>
+        <p><img src="http://ahs.amrita.ac.in/logs/piwik.php?idsite=3" style="border:0" alt="" /></p>
+    </noscript>
+    <!-- End Piwik Tracking Code -->
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBD434" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WBD434');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+    <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box2&lang=en"></script>
+</body>
+
+</html>
